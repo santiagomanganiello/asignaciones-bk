@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf dist && tsc"
+    "build": "rimraf dist && tsc",
+    "start": "node dist/app.js"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
